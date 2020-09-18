@@ -1,0 +1,20 @@
+Sub shpbuild
+Dim Sh As Shape
+With Worksheets("Sheet1")
+   For Each Sh In .Shapes
+       If Not Application.Intersect(Sh.TopLeftCell, .Range("K1:AZ13")) Is Nothing Then
+         Sh.Delete
+       End If
+    Next Sh
+End With
+For i = 10 To 37
+    For j = 2 To 13
+    If Cells(j, i).Value <> "" Then
+    a = Cells(j, i).Value
+    CopAA (a)
+    Cells(j, i).Select
+    ActiveSheet.Paste
+    End If
+    Next j
+Next i
+End Sub
