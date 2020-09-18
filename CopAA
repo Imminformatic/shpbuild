@@ -1,0 +1,63 @@
+Sub CopAA(strAA As String)
+If strAA = "A" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 1")).Select
+    Selection.Copy
+    ElseIf strAA = "C" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 2")).Select
+    Selection.Copy
+    ElseIf strAA = "D" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 18")).Select
+    Selection.Copy
+    ElseIf strAA = "E" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 17")).Select
+    Selection.Copy
+    ElseIf strAA = "F" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 16")).Select
+    Selection.Copy
+    ElseIf strAA = "G" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 15")).Select
+    Selection.Copy
+    ElseIf strAA = "H" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 14")).Select
+    Selection.Copy
+    ElseIf strAA = "I" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 13")).Select
+    Selection.Copy
+    ElseIf strAA = "K" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 12")).Select
+    Selection.Copy
+    ElseIf strAA = "L" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 11")).Select
+    Selection.Copy
+    ElseIf strAA = "M" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 10")).Select
+    Selection.Copy
+    ElseIf strAA = "N" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 9")).Select
+    Selection.Copy
+    ElseIf strAA = "P" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 8")).Select
+    Selection.Copy
+    ElseIf strAA = "Q" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 7")).Select
+    Selection.Copy
+    ElseIf strAA = "R" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 6")).Select
+    Selection.Copy
+    ElseIf strAA = "S" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 5")).Select
+    Selection.Copy
+    ElseIf strAA = "T" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 4")).Select
+    Selection.Copy
+    ElseIf strAA = "V" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 3")).Select
+    Selection.Copy
+    ElseIf strAA = "W" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 19")).Select
+    Selection.Copy
+    ElseIf strAA = "Y" Then
+    ActiveSheet.Shapes.Range(Array("Rounded Rectangle 20")).Select
+    Selection.Copy
+End If
+End Sub
